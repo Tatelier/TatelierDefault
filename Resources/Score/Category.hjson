@@ -1,4 +1,5 @@
 {
+	ImageRootFolder: "SongSelect/Category"
     Categories: [
         {
             Name: "ポップ",
@@ -12,6 +13,7 @@
                 "ぽっぷ",
                 "pop",
             ],
+			ImageFolder: "ポップス"
         },
         {
             Name: "ゲーム＆バラエティ",
@@ -26,6 +28,7 @@
                 "Game",
                 "GAME",
             ],
+			ImageFolder: "ゲーム＆バラエティ"
         },
     ]
 }
