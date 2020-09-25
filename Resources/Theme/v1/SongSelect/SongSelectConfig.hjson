@@ -1,0 +1,109 @@
+{
+	KeyConfig: {
+		Player001: {
+			SelectItem: {					
+				OK: [
+					"F","J"
+				],
+				Prev: [
+					"Left", "D", "Up"
+				],
+				Next: [
+					"Right", "K", "Down"
+				],
+				Cancel: [
+					"Q"
+				]
+			},
+		},
+		Player002: {
+		
+		}
+	},
+	Demo: {
+		Default: {
+			BGMFilePath: "../Sound/Default/SongSelect/BGM.ogg",
+			Volume: 80
+		}
+	},
+	SelectItem: {
+		ImageInfo: [
+			{
+				FileName: "ItemBackground01.png",
+				SplitOption: {
+					Width: 940,
+					Height: 130,
+					SplitWidth: [
+						"{{ Width }}"
+					],
+					SplitHeight: [
+						"48",
+						"{{ Height }} - 48 * 2",
+						"48"
+					],
+				}
+			},
+			{
+				FileName: "ItemBackground02.png"
+				SplitOption: {
+					Width: 940,
+					Height: 130,
+					SplitWidth: [
+						"{{ Width }}"
+					],
+					SplitHeight: [
+						"48",
+						"{{ Height }} - 48 * 2",
+						"48"
+					],
+				}
+			},
+		],
+		Normal: {
+			Width: 940,
+			Height: 316,
+		},
+		Center: {
+			Point: {
+				X: "{{ ScreenWidthHalf }}",
+				Y: "{{ ScreenHeightHalf }}",
+			}
+			Width: 940,
+			Height: 316,
+		},
+		Prev: {
+			Num: 5,
+			Point: {
+				X: "{{ ScreenWidthHalf }} + 50 + 50 * {{ Index }}",
+				Y: "{{ ScreenHeightHalf }} + 250 + 144 * {{ Index }}",
+			}
+		}
+		Next: {
+			Num: 5,
+			Point: {
+				X: "{{ ScreenWidthHalf }} - 50 - 50 * {{ Index }}",
+				Y: "{{ ScreenHeightHalf }} - 250 - 144 * {{ Index }}",
+			}
+		}
+		Animation: {
+			ScoreOpen: [
+				{
+					Property: "MasterHeight",
+					Arguments: [
+						
+					],
+					Value: 316,
+					During: 1000,
+					Easing: "none",
+				}
+			],
+			ScoreClose: [
+				{
+					Property: "MasterHeight",
+					Value: 130,
+					Easing: "none",
+				}
+			]
+		}
+	}
+}
