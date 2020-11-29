@@ -1,0 +1,14 @@
+{
+	Theme: {
+		FolderName: "Resources/Theme/v1",
+	},
+	Score: {
+		RootFolderPath: "Resources/Score"
+	},
+	Font: {
+		DefaultFont: "UD デジタル 教科書体 NK-B"
+	},
+	Preview:true,
+	Demo:true,
+	Debug:false,
+}

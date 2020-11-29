@@ -1,0 +1,34 @@
+{
+	ImageRootFolder: "SongSelect/Category"
+    Categories: [
+        {
+            Name: "ポップ",
+            Detail:
+            '''
+            「あいうえお」「かきくけこ」
+            '''
+            # Ambiguos … 曖昧という意味
+            Ambiguous: [
+                "J-POP",
+                "ぽっぷ",
+                "pop",
+            ],
+			ImageFolder: "ポップス"
+        },
+        {
+            Name: "ゲーム＆バラエティ",
+            Detail:
+            '''
+            「あいうえお」「かきくけこ」
+            '''
+            # Ambiguos … 曖昧という意味
+            Ambiguous: [
+                "ゲーム"
+                "バラエティ",
+                "Game",
+                "GAME",
+            ],
+			ImageFolder: "ゲーム＆バラエティ"
+        },
+    ]
+}
