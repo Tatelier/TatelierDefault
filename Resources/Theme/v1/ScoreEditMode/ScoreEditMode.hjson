@@ -1,0 +1,8 @@
+{
+	Background: {
+		FilePath: "Background/Default.png",
+	},
+	NoteField: {
+		FilePath: "NoteField/Frame.png"
+	}
+}
